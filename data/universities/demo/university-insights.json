@@ -1,0 +1,236 @@
+{
+ "cohorts": [
+  {
+   "year": 2025,
+   "grads": 104,
+   "readiness": 3.4,
+   "verified": 71,
+   "knowledge": 68.3,
+   "outcomes": 61.5,
+   "satisfaction": 3.9
+  },
+  {
+   "year": 2026,
+   "grads": 118,
+   "readiness": 3.7,
+   "verified": 79,
+   "knowledge": 73.7,
+   "outcomes": 69.2,
+   "satisfaction": 4.1
+  }
+ ],
+ "market": [
+  {
+   "company": "مكتب مرساة للمحاماة",
+   "title": "مستشار قانوني مبتدئ",
+   "comps": [
+    "problem-solving",
+    "communication",
+    "data-processing",
+    "planning"
+   ]
+  },
+  {
+   "company": "الإدارة القانونية، مصرف الريادة",
+   "title": "مستشار قانوني مصرفي",
+   "comps": [
+    "data-processing",
+    "critical-thinking",
+    "communication"
+   ]
+  },
+  {
+   "company": "أفق للاستشارات القانونية",
+   "title": "مستشار قانوني",
+   "comps": [
+    "problem-solving",
+    "communication",
+    "critical-thinking",
+    "teamwork"
+   ]
+  },
+  {
+   "company": "مكتب النخبة للمحاماة",
+   "title": "باحث قانوني",
+   "comps": [
+    "critical-thinking",
+    "data-processing",
+    "communication"
+   ]
+  },
+  {
+   "company": "نبراس للمحاماة",
+   "title": "محامٍ متدرب",
+   "comps": [
+    "problem-solving",
+    "communication",
+    "planning",
+    "teamwork"
+   ]
+  },
+  {
+   "company": "مكتب مرساة للمحاماة",
+   "title": "مسؤول امتثال",
+   "comps": [
+    "critical-thinking",
+    "data-processing",
+    "planning"
+   ]
+  },
+  {
+   "company": "واحة للتحكيم",
+   "title": "مساعد محكّم",
+   "comps": [
+    "critical-thinking",
+    "communication",
+    "decision-making"
+   ]
+  },
+  {
+   "company": "سديم للملكية الفكرية",
+   "title": "أخصائي ملكية فكرية",
+   "comps": [
+    "data-processing",
+    "innovation",
+    "communication"
+   ]
+  },
+  {
+   "company": "الإدارة القانونية، مصرف الريادة",
+   "title": "أخصائي امتثال",
+   "comps": [
+    "critical-thinking",
+    "communication",
+    "planning"
+   ]
+  },
+  {
+   "company": "بيان للتوثيق",
+   "title": "كاتب عدل مساعد",
+   "comps": [
+    "data-processing",
+    "planning",
+    "teamwork"
+   ]
+  },
+  {
+   "company": "مكتب النخبة للمحاماة",
+   "title": "محامٍ متدرب",
+   "comps": [
+    "communication",
+    "teamwork",
+    "problem-solving"
+   ]
+  },
+  {
+   "company": "أفق للاستشارات القانونية",
+   "title": "باحث تشريعي",
+   "comps": [
+    "data-processing",
+    "critical-thinking",
+    "communication",
+    "planning"
+   ]
+  },
+  {
+   "company": "قوافل للمحاماة التجارية",
+   "title": "مستشار عقود",
+   "comps": [
+    "data-processing",
+    "planning",
+    "teamwork"
+   ]
+  },
+  {
+   "company": "مكتب مرساة للمحاماة",
+   "title": "منسق قضايا",
+   "comps": [
+    "planning",
+    "teamwork",
+    "communication"
+   ]
+  }
+ ],
+ "evals": [
+  {
+   "company": "مكتب مرساة للمحاماة",
+   "college": "التقاضي",
+   "rating": 5
+  },
+  {
+   "company": "مكتب مرساة للمحاماة",
+   "college": "التوثيق",
+   "rating": 4
+  },
+  {
+   "company": "مكتب مرساة للمحاماة",
+   "college": "البحث والصياغة التشريعية",
+   "rating": 4
+  },
+  {
+   "company": "الإدارة القانونية، مصرف الريادة",
+   "college": "الوساطة والتحكيم",
+   "rating": 4
+  },
+  {
+   "company": "الإدارة القانونية، مصرف الريادة",
+   "college": "هيكلة الشركات والاندماج والاستحواذ",
+   "rating": 5
+  },
+  {
+   "company": "الإدارة القانونية، مصرف الريادة",
+   "college": "الاستشارات القانونية المتخصصة",
+   "rating": 4
+  },
+  {
+   "company": "أفق للاستشارات القانونية",
+   "college": "الملكية الفكرية",
+   "rating": 3
+  },
+  {
+   "company": "أفق للاستشارات القانونية",
+   "college": "إدارة السياسات العامة",
+   "rating": 4
+  },
+  {
+   "company": "نبراس للمحاماة",
+   "college": "التقاضي",
+   "rating": 5
+  },
+  {
+   "company": "نبراس للمحاماة",
+   "college": "التوثيق",
+   "rating": 4
+  },
+  {
+   "company": "نبراس للمحاماة",
+   "college": "البحث والصياغة التشريعية",
+   "rating": 4
+  },
+  {
+   "company": "رواسي للقانون العقاري",
+   "college": "الوساطة والتحكيم",
+   "rating": 4
+  },
+  {
+   "company": "رواسي للقانون العقاري",
+   "college": "هيكلة الشركات والاندماج والاستحواذ",
+   "rating": 3
+  },
+  {
+   "company": "مكتب النخبة للمحاماة",
+   "college": "الاستشارات القانونية المتخصصة",
+   "rating": 4
+  },
+  {
+   "company": "مكتب النخبة للمحاماة",
+   "college": "الملكية الفكرية",
+   "rating": 5
+  },
+  {
+   "company": "رواسي للقانون العقاري",
+   "college": "إدارة السياسات العامة",
+   "rating": 3
+  }
+ ]
+}

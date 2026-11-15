@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@font-face{font-family:Kufi;font-style:normal;font-weight:100 900;font-display:swap;src:url(./fonts/kufi-arabic.woff2) format("woff2");unicode-range:U+600-6FF,U+750-77F,U+870-891,U+897-8E1,U+8E3-8FF,U+200C-200E,U+2010-2011,U+204F,U+2E41,U+FB50-FDFF,U+FE70-FE74,U+FE76-FEFC}
+@font-face{font-family:Kufi;font-style:normal;font-weight:100 900;font-display:swap;src:url(./fonts/kufi-latin.woff2) format("woff2");unicode-range:U+00-FF,U+131,U+152-153,U+2BB-2BC,U+2C6,U+2DA,U+2DC,U+304,U+308,U+329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+
+:root{--font-cairo:Kufi}
+
+
+:root {
+  --navy: #000000;
+  --blue: #3f7a24;
+  --blue-bright: #35651f;
+  --ink: #393939;
+  --ink-2: #5a5a5a;
+  --line: #a8a8a8;
+  --teal: #3f7a24;
+  --teal-2: #35651f;
+  --cyan: #c5e2b2;
+  --green: #3f7a24;
+  --green-2: #5e9a3e;
+  --mint: #8fd07a;
+  --bg: #ffffff;
+  --bg-soft: #f6f6f6;
+  --gold: #cdb774;
+}
+
+@theme inline {
+  --color-navy: var(--navy);
+  --color-orange-text: #35651f;
+  --color-blue: var(--blue);
+  --color-blue-bright: var(--blue-bright);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-line: var(--line);
+  --color-teal: var(--teal);
+  --color-teal-2: var(--teal-2);
+  --color-cyan: var(--cyan);
+  --color-green: var(--green);
+  --color-green-2: var(--green-2);
+  --color-mint: var(--mint);
+  --color-bg: var(--bg);
+  --color-bg-soft: var(--bg-soft);
+  --color-gold: var(--gold);
+  --font-sans: var(--font-cairo), system-ui, sans-serif;
+  --radius-card: 12px;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-cairo), system-ui, sans-serif;
+}
+
+/* انتقال ناعم عند تغيير الفصل أو الشاشة في قسم التجربة (بلا حركة لمن يفضّل تقليلها) */
+@keyframes exp-in {
+  from {
+    opacity: 0.35;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.exp-in {
+  animation: exp-in 200ms ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .exp-in {
+    animation: none;
+  }
+}
+
+.jr-fade{animation:exp-in 300ms ease-out both}
+@media (prefers-reduced-motion: reduce){.jr-fade{animation:none}}
+
+@keyframes nav-pop-in {
+  from { opacity: 0; transform: translateY(-6px) scale(0.98); }
+  to { opacity: 1; transform: none; }
+}
+.nav-pop { animation: nav-pop-in 160ms ease-out; }
+@media (prefers-reduced-motion: reduce) { .nav-pop { animation: none; } }
+
+

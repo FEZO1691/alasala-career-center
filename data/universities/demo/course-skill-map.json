@@ -1,0 +1,201 @@
+{
+ "status": "ربط تجريبي",
+ "basis": "اعتمادًا على أسماء المقررات فقط، وبحد أقصى 3 مهارات لكل مقرر. لا تُربط بالمقررات المهارات التي يقدمها المركز (سبع مهارات)، فلكل منها فصل واحد فقط.",
+ "financialLiteracyNote": "الثقافة المالية في القاموس تعني المالية الشخصية، ولا يقدمها إلا المركز.",
+ "unclassified": {
+  "label": "اختياري، غير مصنّف",
+  "courses": [
+   "ELEC 201",
+   "ELEC 301",
+   "ELEC 302",
+   "ELEC 401",
+   "ELEC 402"
+  ]
+ },
+ "map": {
+  "ENGL 111": [
+   "literacy",
+   "communication"
+  ],
+  "ENGL 112": [
+   "literacy",
+   "communication"
+  ],
+  "ENGL 113": [
+   "communication",
+   "cultural-intelligence"
+  ],
+  "ENGL 114": [
+   "communication",
+   "teamwork"
+  ],
+  "ARAB 101": [
+   "literacy",
+   "communication"
+  ],
+  "ISLM 101": [
+   "cultural-intelligence",
+   "critical-thinking"
+  ],
+  "SKL 101": [
+   "critical-thinking",
+   "data-processing",
+   "problem-solving"
+  ],
+  "ENGL 121": [
+   "literacy",
+   "communication"
+  ],
+  "ENGL 122": [
+   "literacy",
+   "communication"
+  ],
+  "ENGL 123": [
+   "communication",
+   "cultural-intelligence"
+  ],
+  "ENGL 124": [
+   "communication",
+   "teamwork"
+  ],
+  "ARAB 102": [
+   "literacy",
+   "communication"
+  ],
+  "SKL 102": [
+   "communication",
+   "teamwork",
+   "people-management"
+  ],
+  "CMP 101": [
+   "data-processing",
+   "innovation"
+  ],
+  "LAWP 211": [
+   "critical-thinking",
+   "data-processing"
+  ],
+  "LAWP 212": [
+   "decision-making",
+   "data-processing"
+  ],
+  "ISLM 102": [
+   "cultural-intelligence",
+   "critical-thinking"
+  ],
+  "ISLM 103": [
+   "numeracy",
+   "decision-making"
+  ],
+  "PE 101": [
+   "health-literacy"
+  ],
+  "SKL 103": [
+   "leadership",
+   "teamwork",
+   "people-management"
+  ],
+  "LAWP 121": [
+   "critical-thinking",
+   "data-processing"
+  ],
+  "LAWG 122": [
+   "critical-thinking",
+   "decision-making"
+  ],
+  "LAWP 123": [
+   "people-management",
+   "problem-solving"
+  ],
+  "LAWG 124": [
+   "cultural-intelligence",
+   "communication",
+   "critical-thinking"
+  ],
+  "LAWG 102": [
+   "critical-thinking",
+   "data-processing"
+  ],
+  "LAWP 102": [
+   "decision-making",
+   "planning",
+   "teamwork"
+  ],
+  "LAWP 311": [
+   "critical-thinking",
+   "problem-solving"
+  ],
+  "LAWP 312": [
+   "numeracy",
+   "data-processing"
+  ],
+  "LAWG 313": [
+   "critical-thinking",
+   "decision-making"
+  ],
+  "LAWP 314": [
+   "numeracy",
+   "decision-making",
+   "problem-solving"
+  ],
+  "LAWG 315": [
+   "data-processing",
+   "critical-thinking"
+  ],
+  "LAWP 321": [
+   "data-processing",
+   "critical-thinking"
+  ],
+  "LAWP 322": [
+   "people-management",
+   "decision-making"
+  ],
+  "LAWP 323": [
+   "problem-solving",
+   "communication",
+   "people-management"
+  ],
+  "LAWP 324": [
+   "communication",
+   "problem-solving",
+   "planning"
+  ],
+  "LAWG 325": [
+   "critical-thinking",
+   "decision-making"
+  ],
+  "LAWP 411": [
+   "data-processing",
+   "critical-thinking",
+   "problem-solving"
+  ],
+  "LAWP 412": [
+   "numeracy",
+   "decision-making",
+   "planning"
+  ],
+  "LAWP 413": [
+   "literacy",
+   "communication",
+   "critical-thinking"
+  ],
+  "LAWG 414": [
+   "critical-thinking",
+   "data-processing"
+  ],
+  "LAWP 415": [
+   "critical-thinking",
+   "literacy"
+  ],
+  "LAWG 421": [
+   "cultural-intelligence",
+   "critical-thinking"
+  ],
+  "LAW 499": [
+   "problem-solving",
+   "teamwork",
+   "communication"
+  ]
+ },
+ "archivedCompetencyMap": {}
+}

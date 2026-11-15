@@ -1,0 +1,36 @@
+{
+ "note": "خريج واحد للعرض فقط، بيانات تجريبية",
+ "alumni": [
+  {
+   "id": "a1",
+   "name": "إبراهيم الجهني",
+   "initial": "إ",
+   "college": "الحقوق",
+   "track": "التقاضي",
+   "year": 5,
+   "gradYear": 2026,
+   "scores": {
+    "problem-solving": 5,
+    "communication": 4,
+    "data-processing": 5,
+    "planning": 4,
+    "emotional-intelligence": 4,
+    "leadership": 4,
+    "critical-thinking": 3,
+    "teamwork": 5
+   },
+   "styles": [
+    "المحلّل",
+    "المنجز"
+   ],
+   "cert": null,
+   "verified": false,
+   "svc": {
+    "nova": false,
+    "cv": false,
+    "sessions": 2,
+    "roles": 0
+   }
+  }
+ ]
+}

@@ -1,0 +1,252 @@
+{
+ "source": "قاموس مهارات قطاع الخدمات المهنية والاستشارية (الإطار القطاعي للمهارات، 2025)",
+ "classificationNote": "توزيع المهارات الـ 21 على الفئات الخمس مبدئي.",
+ "levels": [
+  {
+   "id": 1,
+   "name": "أساسي"
+  },
+  {
+   "id": 2,
+   "name": "متنوع"
+  },
+  {
+   "id": 3,
+   "name": "شامل"
+  }
+ ],
+ "categories": [
+  {
+   "id": "foundational",
+   "name": "أساسية",
+   "skills": [
+    {
+     "id": "literacy",
+     "name": "الإلمام بالقراءة والكتابة",
+     "delivery": "university",
+     "centerSemesters": []
+    },
+    {
+     "id": "numeracy",
+     "name": "المهارات الحسابية",
+     "delivery": "university",
+     "centerSemesters": []
+    },
+    {
+     "id": "digital-literacy",
+     "name": "المعرفة الرقمية",
+     "delivery": "center",
+     "centerSemesters": [
+      3
+     ],
+     "centerUnit": {
+      "title": "وحدة \"الأدوات الرقمية للعمل القانوني: البحث في الأنظمة والمنصات العدلية\"",
+      "draft": true
+     }
+    },
+    {
+     "id": "financial-literacy",
+     "name": "الثقافة المالية",
+     "delivery": "center",
+     "centerSemesters": [
+      4
+     ],
+     "centerUnit": {
+      "title": "وحدة \"الثقافة المالية الشخصية: ميزانية وادخار\"",
+      "draft": true
+     }
+    },
+    {
+     "id": "health-literacy",
+     "name": "الثقافة الصحية",
+     "delivery": "university",
+     "centerSemesters": []
+    }
+   ]
+  },
+  {
+   "id": "personal",
+   "name": "شخصية",
+   "skills": [
+    {
+     "id": "self-learning",
+     "name": "التعلم الذاتي",
+     "delivery": "center",
+     "centerSemesters": [
+      1
+     ],
+     "centerUnit": {
+      "title": "برنامج \"خطة تعلّمي\": هدف وجدول ومتابعة",
+      "draft": true
+     }
+    },
+    {
+     "id": "planning",
+     "name": "التخطيط",
+     "delivery": "university",
+     "centerSemesters": []
+    },
+    {
+     "id": "self-management",
+     "name": "إدارة الذات",
+     "delivery": "center",
+     "centerSemesters": [
+      5
+     ],
+     "centerUnit": {
+      "title": "وحدة \"إدارة الذات: الأولويات والمواعيد النهائية\"",
+      "draft": true
+     }
+    },
+    {
+     "id": "adaptability",
+     "name": "القدرة على التكيف",
+     "delivery": "center",
+     "centerSemesters": [
+      7
+     ],
+     "centerUnit": {
+      "title": "ورشة \"التعامل مع التغيير\"",
+      "draft": true
+     }
+    },
+    {
+     "id": "emotional-intelligence",
+     "name": "الذكاء العاطفي",
+     "delivery": "center",
+     "centerSemesters": [
+      2
+     ],
+     "centerUnit": {
+      "title": "ورشة \"فهم نفسك والآخرين\"",
+      "draft": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "social",
+   "name": "اجتماعية",
+   "skills": [
+    {
+     "id": "communication",
+     "name": "التواصل",
+     "delivery": "university",
+     "centerSemesters": []
+    },
+    {
+     "id": "cultural-intelligence",
+     "name": "الذكاء الثقافي",
+     "delivery": "university",
+     "centerSemesters": []
+    },
+    {
+     "id": "people-management",
+     "name": "إدارة الأفراد",
+     "delivery": "university",
+     "centerSemesters": []
+    },
+    {
+     "id": "teamwork",
+     "name": "العمل الجماعي",
+     "delivery": "university",
+     "centerSemesters": []
+    },
+    {
+     "id": "leadership",
+     "name": "القيادة",
+     "delivery": "university",
+     "centerSemesters": []
+    }
+   ]
+  },
+  {
+   "id": "analytical",
+   "name": "تحليلية",
+   "skills": [
+    {
+     "id": "critical-thinking",
+     "name": "التفكير الناقد",
+     "delivery": "university",
+     "centerSemesters": []
+    },
+    {
+     "id": "decision-making",
+     "name": "اتخاذ القرار",
+     "delivery": "university",
+     "centerSemesters": []
+    },
+    {
+     "id": "problem-solving",
+     "name": "حل المشكلات",
+     "delivery": "university",
+     "centerSemesters": []
+    },
+    {
+     "id": "data-processing",
+     "name": "معالجة المعلومات",
+     "delivery": "university",
+     "centerSemesters": []
+    }
+   ]
+  },
+  {
+   "id": "foresight",
+   "name": "استشرافية",
+   "skills": [
+    {
+     "id": "innovation",
+     "name": "الابتكار والتفكير الإبداعي",
+     "delivery": "university",
+     "centerSemesters": []
+    },
+    {
+     "id": "sustainability",
+     "name": "الإلمام بالاستدامة",
+     "delivery": "center",
+     "centerSemesters": [
+      6
+     ],
+     "centerUnit": {
+      "title": "وحدة \"الاستدامة والحوكمة: ما يعنيه للمستشار القانوني\"",
+      "draft": true
+     }
+    }
+   ]
+  }
+ ],
+ "archivedCompetencies": [
+  {
+   "id": "career",
+   "name": "التطوير المهني والذاتي"
+  },
+  {
+   "id": "comm",
+   "name": "التواصل"
+  },
+  {
+   "id": "crit",
+   "name": "التفكير الناقد"
+  },
+  {
+   "id": "equity",
+   "name": "العدالة والشمول"
+  },
+  {
+   "id": "lead",
+   "name": "القيادة"
+  },
+  {
+   "id": "prof",
+   "name": "الاحترافية"
+  },
+  {
+   "id": "team",
+   "name": "العمل الجماعي"
+  },
+  {
+   "id": "tech",
+   "name": "التقنية"
+  }
+ ]
+}

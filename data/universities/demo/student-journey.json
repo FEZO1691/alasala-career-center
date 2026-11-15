@@ -1,0 +1,648 @@
+{
+ "persona": {
+  "name": "خالد",
+  "major": "القانون",
+  "note": "طالب تجريبي"
+ },
+ "screens": {
+  "home": {
+   "title": "الرئيسية",
+   "placement": "nav",
+   "sees": "ترحيب بالطالب، ومهام الفصل، والخطوة التالية، وبطاقات الخدمات المفتوحة.",
+   "draft": true
+  },
+  "portfolio": {
+   "title": "ملفي",
+   "placement": "nav",
+   "sees": "ملف ينمو مع كل سنة: ما أنجزته، وما قيد التنفيذ، وما ينتظرك.",
+   "draft": true
+  },
+  "plan": {
+   "title": "خطتي",
+   "placement": "nav",
+   "sees": "خطة مهنية شخصية بـ 4 خطوات.",
+   "draft": true
+  },
+  "skills": {
+   "title": "مهاراتي",
+   "placement": "nav",
+   "sees": "تغطية المهارات العامة بحسب الفصل، وما يقدمه المركز منها.",
+   "draft": true
+  },
+  "assistant": {
+   "title": "المساعد",
+   "placement": "nav",
+   "sees": "مساعد ذكي بالعربية (نموذج تجريبي بردود جاهزة).",
+   "draft": true
+  },
+  "nova": {
+   "title": "Nova",
+   "placement": "card",
+   "sees": "تقييم Nova: ملف الميول وقياس المهارات.",
+   "draft": true,
+   "summary": "تقييم الميول والمهارات"
+  },
+  "consult": {
+   "title": "الاستشارة",
+   "placement": "card",
+   "summary": "إرشاد وتدريب فردي",
+   "sees": "حجز موعد من الموقع، وساعات بدون حجز، وسجل جلسات للطالب.",
+   "draft": true
+  },
+  "library": {
+   "title": "المكتبة المهنية",
+   "placement": "card",
+   "summary": "مكتبة محتوى مهني عربي",
+   "sees": "مكتبة محتوى مهني عربي، ومعلومات سوق العمل السعودي.",
+   "draft": true
+  },
+  "cvjobs": {
+   "title": "السيرة والوظائف",
+   "placement": "card",
+   "summary": "مراجعة السيرة وبوابة وظائف ومشاريع",
+   "sees": "مراجعة السيرة، وبوابة وظائف ومشاريع.",
+   "draft": true
+  },
+  "certs": {
+   "title": "الشهادات المهنية",
+   "placement": "card",
+   "summary": "شهادات مهنية مرتبطة بمهاراتك",
+   "sees": "بطاقات الشهادات المهنية: الجهة، والمهارات المرتبطة، ونوع دعم المركز لكل شهادة.",
+   "draft": true
+  }
+ },
+ "periods": [
+  {
+   "id": 1,
+   "year": 1,
+   "stageId": 1,
+   "title": "تعرّف على المركز وقيّم نفسك",
+   "headline": "في أول فصل: يتعرف الطالب على المركز ويجري تقييم Nova.",
+   "tasks": [
+    {
+     "text": "حضور جلسة التعريف بالمركز",
+     "status": "done"
+    },
+    {
+     "text": "إجراء تقييم Nova",
+     "status": "done"
+    },
+    {
+     "text": "حجز جلسة تفسير",
+     "status": "todo"
+    }
+   ],
+   "services": [
+    "1-3",
+    "1-1",
+    "1-2"
+   ],
+   "centerUnits": [
+    "self-learning"
+   ],
+   "screens": {
+    "home": {
+     "state": "open"
+    },
+    "portfolio": {
+     "state": "open"
+    },
+    "nova": {
+     "state": "open"
+    },
+    "plan": {
+     "state": "locked",
+     "reason": "تفتح الخطة بعد جلسة التفسير."
+    },
+    "skills": {
+     "state": "open"
+    },
+    "consult": {
+     "state": "open"
+    },
+    "library": {
+     "state": "open"
+    },
+    "cvjobs": {
+     "state": "locked",
+     "reason": "تفتح السيرة والوظائف في السنة الثالثة."
+    },
+    "assistant": {
+     "state": "open"
+    },
+    "certs": {
+     "state": "locked",
+     "reason": "تفتح الشهادات المهنية في السنة الرابعة."
+    }
+   },
+   "draft": true
+  },
+  {
+   "id": 2,
+   "year": 1,
+   "stageId": 1,
+   "title": "افهم نفسك",
+   "headline": "يفسّر الطالب نتيجة تقييمه ويبدأ خطته المهنية.",
+   "tasks": [
+    {
+     "text": "جلسة تفسير النتيجة",
+     "status": "done"
+    },
+    {
+     "text": "ورشة \"فهم نفسك والآخرين\"",
+     "status": "todo"
+    },
+    {
+     "text": "ورشة \"الصحة وإدارة الضغط\"",
+     "status": "todo",
+     "optional": true
+    }
+   ],
+   "services": [
+    "1-1",
+    "1-4"
+   ],
+   "centerUnits": [
+    "emotional-intelligence"
+   ],
+   "screens": {
+    "home": {
+     "state": "open"
+    },
+    "portfolio": {
+     "state": "open"
+    },
+    "nova": {
+     "state": "open"
+    },
+    "plan": {
+     "state": "open",
+     "note": "الخطوة الأولى"
+    },
+    "skills": {
+     "state": "open"
+    },
+    "consult": {
+     "state": "open"
+    },
+    "library": {
+     "state": "open"
+    },
+    "cvjobs": {
+     "state": "locked",
+     "reason": "تفتح السيرة والوظائف في السنة الثالثة."
+    },
+    "assistant": {
+     "state": "open"
+    },
+    "certs": {
+     "state": "locked",
+     "reason": "تفتح الشهادات المهنية في السنة الرابعة."
+    }
+   },
+   "draft": true
+  },
+  {
+   "id": 3,
+   "year": 2,
+   "stageId": 2,
+   "title": "استكشف المهن",
+   "headline": "يتعرف الطالب على الأدوار المهنية ويلتقي بخريجين وشركات.",
+   "tasks": [
+    {
+     "text": "لقاء خريجين",
+     "status": "done"
+    },
+    {
+     "text": "زيارة شركة",
+     "status": "todo"
+    },
+    {
+     "text": "ورشة \"العمل في بيئات متعددة الثقافات\"",
+     "status": "todo"
+    }
+   ],
+   "services": [
+    "2-2",
+    "2-1",
+    "2-3"
+   ],
+   "centerUnits": [
+    "digital-literacy"
+   ],
+   "screens": {
+    "home": {
+     "state": "open"
+    },
+    "portfolio": {
+     "state": "open"
+    },
+    "nova": {
+     "state": "open"
+    },
+    "plan": {
+     "state": "open"
+    },
+    "skills": {
+     "state": "open"
+    },
+    "consult": {
+     "state": "open"
+    },
+    "library": {
+     "state": "open"
+    },
+    "cvjobs": {
+     "state": "locked",
+     "reason": "تفتح السيرة والوظائف في السنة الثالثة."
+    },
+    "assistant": {
+     "state": "open"
+    },
+    "certs": {
+     "state": "locked",
+     "reason": "تفتح الشهادات المهنية في السنة الرابعة."
+    }
+   },
+   "draft": true
+  },
+  {
+   "id": 4,
+   "year": 2,
+   "stageId": 2,
+   "title": "قرّب الصورة",
+   "headline": "يستكشف الطالب ثلاثة أدوار مهنية على الأقل ويحدّث خطته.",
+   "tasks": [
+    {
+     "text": "وحدة \"الثقافة المالية الشخصية: ميزانية وادخار\"",
+     "status": "done"
+    },
+    {
+     "text": "استكشاف ثلاثة أدوار مهنية",
+     "status": "done"
+    },
+    {
+     "text": "تحديث الخطة المهنية",
+     "status": "todo"
+    }
+   ],
+   "services": [
+    "2-4",
+    "2-1"
+   ],
+   "centerUnits": [
+    "financial-literacy"
+   ],
+   "screens": {
+    "home": {
+     "state": "open"
+    },
+    "portfolio": {
+     "state": "open"
+    },
+    "nova": {
+     "state": "open"
+    },
+    "plan": {
+     "state": "open"
+    },
+    "skills": {
+     "state": "open"
+    },
+    "consult": {
+     "state": "open"
+    },
+    "library": {
+     "state": "open"
+    },
+    "cvjobs": {
+     "state": "locked",
+     "reason": "تفتح السيرة والوظائف في السنة الثالثة."
+    },
+    "assistant": {
+     "state": "open"
+    },
+    "certs": {
+     "state": "locked",
+     "reason": "تفتح الشهادات المهنية في السنة الرابعة."
+    }
+   },
+   "draft": true
+  },
+  {
+   "id": 5,
+   "year": 3,
+   "stageId": 3,
+   "title": "اختر مسارك",
+   "headline": "يختار الطالب مساره ويجهّز سيرته الذاتية ومهارات المقابلة.",
+   "tasks": [
+    {
+     "text": "اختيار المسار وبناء السيرة والتدرب على المقابلات",
+     "status": "done"
+    },
+    {
+     "text": "وحدة \"تمكين الآخرين: التوجيه وتقديم الملاحظات\"",
+     "status": "done"
+    },
+    {
+     "text": "حضور ورشة السيرة والمقابلات",
+     "status": "todo"
+    }
+   ],
+   "services": [
+    "3-2",
+    "3-4",
+    "3-5"
+   ],
+   "centerUnits": [
+    "self-management"
+   ],
+   "screens": {
+    "home": {
+     "state": "open"
+    },
+    "portfolio": {
+     "state": "open"
+    },
+    "nova": {
+     "state": "open"
+    },
+    "plan": {
+     "state": "open"
+    },
+    "skills": {
+     "state": "open"
+    },
+    "consult": {
+     "state": "open"
+    },
+    "library": {
+     "state": "open"
+    },
+    "cvjobs": {
+     "state": "open",
+     "note": "مراجعة السيرة"
+    },
+    "assistant": {
+     "state": "open"
+    },
+    "certs": {
+     "state": "locked",
+     "reason": "تفتح الشهادات المهنية في السنة الرابعة."
+    }
+   },
+   "draft": true
+  },
+  {
+   "id": 6,
+   "year": 3,
+   "stageId": 3,
+   "title": "ابنِ ملفك",
+   "headline": "يجرّب الطالب مقابلة العمل ويبني محفظته ويخطط للدراسة العليا.",
+   "tasks": [
+    {
+     "text": "مقابلة عمل تجريبية",
+     "status": "done"
+    },
+    {
+     "text": "بناء المحفظة من مشاريع المواد",
+     "status": "todo"
+    },
+    {
+     "text": "تخطيط مسارك بعد التخرج",
+     "status": "todo"
+    }
+   ],
+   "services": [
+    "3-3",
+    "3-6",
+    "3-7"
+   ],
+   "centerUnits": [
+    "sustainability"
+   ],
+   "screens": {
+    "home": {
+     "state": "open"
+    },
+    "portfolio": {
+     "state": "open"
+    },
+    "nova": {
+     "state": "open"
+    },
+    "plan": {
+     "state": "open"
+    },
+    "skills": {
+     "state": "open"
+    },
+    "consult": {
+     "state": "open"
+    },
+    "library": {
+     "state": "open"
+    },
+    "cvjobs": {
+     "state": "open",
+     "note": "مراجعة السيرة"
+    },
+    "assistant": {
+     "state": "open"
+    },
+    "certs": {
+     "state": "locked",
+     "reason": "تفتح الشهادات المهنية في السنة الرابعة."
+    }
+   },
+   "draft": true
+  },
+  {
+   "id": 7,
+   "year": 4,
+   "stageId": 4,
+   "title": "انطلق إلى المشاريع والوظائف",
+   "headline": "يختار الطالب مساره ويبني سيرته ويعزّز مهاراته الشخصية.",
+   "tasks": [
+    {
+     "text": "التقديم على المشاريع والوظائف المطابقة لملفك",
+     "status": "done"
+    },
+    {
+     "text": "اكتمال مراجعة السيرة 100%",
+     "status": "done"
+    },
+    {
+     "text": "المشاركة في تحدي أعمال",
+     "status": "todo"
+    }
+   ],
+   "services": [
+    "4-1",
+    "4-4",
+    "4-5"
+   ],
+   "centerUnits": [
+    "adaptability"
+   ],
+   "screens": {
+    "home": {
+     "state": "open"
+    },
+    "portfolio": {
+     "state": "open"
+    },
+    "nova": {
+     "state": "open"
+    },
+    "plan": {
+     "state": "open"
+    },
+    "skills": {
+     "state": "open"
+    },
+    "consult": {
+     "state": "open"
+    },
+    "library": {
+     "state": "open"
+    },
+    "cvjobs": {
+     "state": "open",
+     "note": "الوظائف والمشاريع كاملة"
+    },
+    "assistant": {
+     "state": "open"
+    },
+    "certs": {
+     "state": "open"
+    }
+   },
+   "draft": true
+  },
+  {
+   "id": 8,
+   "year": 4,
+   "stageId": 4,
+   "title": "أول وظيفة",
+   "headline": "يكمل الطالب مشروعه ويحضر معرض التوظيف.",
+   "tasks": [
+    {
+     "text": "المشاريع ثم مقابلات التوظيف وقبول العرض",
+     "status": "done"
+    },
+    {
+     "text": "حضور معرض التوظيف",
+     "status": "todo"
+    },
+    {
+     "text": "التقييم البعدي في Nova",
+     "status": "todo",
+     "proposed": true
+    }
+   ],
+   "services": [
+    "4-1",
+    "4-2",
+    "4-3"
+   ],
+   "centerUnits": [],
+   "screens": {
+    "home": {
+     "state": "open"
+    },
+    "portfolio": {
+     "state": "open"
+    },
+    "nova": {
+     "state": "open"
+    },
+    "plan": {
+     "state": "open"
+    },
+    "skills": {
+     "state": "open"
+    },
+    "consult": {
+     "state": "open"
+    },
+    "library": {
+     "state": "open"
+    },
+    "cvjobs": {
+     "state": "open",
+     "note": "الوظائف والمشاريع كاملة"
+    },
+    "assistant": {
+     "state": "open"
+    },
+    "certs": {
+     "state": "open"
+    }
+   },
+   "draft": true
+  },
+  {
+   "id": "graduate",
+   "year": null,
+   "stageId": 5,
+   "title": "بعد التخرج",
+   "headline": "يثبت الخريج في وظيفته أو دراسته ويظل على اتصال بالمركز.",
+   "tasks": [
+    {
+     "text": "استبيان ما بعد التخرج",
+     "status": "todo"
+    },
+    {
+     "text": "تصفح الوظائف مدى الحياة",
+     "status": "todo"
+    },
+    {
+     "text": "متابعة لمدة 5 سنوات",
+     "status": "todo"
+    }
+   ],
+   "services": [
+    "5-1",
+    "5-2",
+    "5-5"
+   ],
+   "centerUnits": [],
+   "screens": {
+    "home": {
+     "state": "open"
+    },
+    "portfolio": {
+     "state": "open"
+    },
+    "nova": {
+     "state": "open"
+    },
+    "plan": {
+     "state": "open"
+    },
+    "skills": {
+     "state": "open"
+    },
+    "consult": {
+     "state": "open"
+    },
+    "library": {
+     "state": "open"
+    },
+    "cvjobs": {
+     "state": "open",
+     "note": "فرص توظيف للخريجين"
+    },
+    "assistant": {
+     "state": "open"
+    },
+    "certs": {
+     "state": "locked",
+     "reason": "الشهادات المهنية خاصة بالسنة الرابعة."
+    }
+   },
+   "draft": true
+  }
+ ]
+}
