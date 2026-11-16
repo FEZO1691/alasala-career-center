@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useSyncExternalStore } from "react";
 
-export type Page = "home" | "story" | "session" | "methodology" | "student" | "alumni" | "employers" | "university" | "center";
+export type Page = "home" | "story" | "session" | "student" | "alumni" | "employers" | "university" | "center";
 
 const MAP: Record<string, Page> = {
   student: "student",
@@ -18,7 +18,6 @@ export function parseHash(h: string): Page {
   const k = h.replace(/^#\/?/, "");
   if (/^story[\/-]/.test(k)) return "story";
   if (/^session[\/-]/.test(k)) return "session";
-  if (k === "methodology" || /^methodology[\/-]/.test(k)) return "methodology";
   return MAP[k] ?? "home";
 }
 export const storyId = () => (typeof window === "undefined" ? "1" : window.location.hash.replace(/^#\/?story[\/-]/, "") || "1");
@@ -69,4 +68,3 @@ export const joinSession = (id: string, role: "student" | "mentor") => {
   window.location.hash = `#session-${id}-${role}`;
 };
 
-export const methodSection = () => (typeof window === "undefined" ? "" : window.location.hash.replace(/^#\/?methodology[\/-]?/, ""));

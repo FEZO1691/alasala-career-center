@@ -9,7 +9,6 @@ import UniversityPortal from "./components/UniversityPortal";
 import { Footer } from "./components/Closing";
 import { LandingHero, LandingNumbers, Audiences, ServiceCards, Events, Partners, LandingCta, HowItWorks, Faq, Stories } from "./components/Landing";
 import SessionRoom from "./components/SessionRoom";
-import MethodologyPage, { MethodStrip } from "./components/Methodology";
 import StoryPage from "./components/StoryPage";
 import Chatbot from "./components/Chatbot";
 
@@ -37,7 +36,6 @@ export default function Home() {
                 <Journey stages={university.stages} />
                 <Audiences gateways={university.gateways} />
                 <HowItWorks />
-                <MethodStrip />
                 <ServiceCards services={university.services} />
                 <Events />
                 <Stories />
@@ -48,7 +46,6 @@ export default function Home() {
             ),
             story: <StoryPage />,
             session: <SessionRoom />,
-            methodology: <MethodologyPage />,
             student: <StudentPortal mode="student" skills={skillsProps} />,
             alumni: <StudentPortal mode="alumni" skills={skillsProps} />,
             employers: <EmployersSection />,

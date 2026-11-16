@@ -8,8 +8,6 @@ import { goTab, usePage, type Page } from "@/lib/route";
 type Item = { label: string; hint?: string; section?: string; page?: Page; tab?: string; hash?: string };
 type Entry = { label: string; title: string; desc: string; cta: string; icon: string; color: string; href: string; page?: Page; items: Item[] };
 
-const SERVICES = ["إرشاد وتدريب فردي", "أدوات إلكترونية", "معلومات مهنية", "بوابة وظائف ومشاريع", "التخطيط للدراسة العليا", "الخبرة العملية", "علاقة أصحاب العمل", "قياس النتائج"];
-
 const MENU: Entry[] = [
  {
    label: "الرئيسية",
@@ -29,22 +27,6 @@ const MENU: Entry[] = [
      { label: "أسئلة شائعة", section: "faq" },
    ],
  },
-  {
-    label: "المنهجية",
-    title: "المنهجية",
-    desc: "كيف بنينا المركز: 35 جامعة، ومعايير NACE، وقاموس المهارات.",
-    cta: "صفحة المنهجية كاملة",
-    icon: "lens",
-    color: "#7bbb58",
-    href: "#methodology",
-    items: [
-      { label: "السؤال والخطوات", hint: "المشهد 1: كيف عملنا", hash: "#methodology-how" },
-      { label: "الجامعات المرجعية", hint: "المشهد 2: 35 جامعة في ست مناطق", hash: "#methodology-universities" },
-      { label: "ماذا أخذنا", hint: "المشهد 3: اثنتا عشرة ممارسة", hash: "#methodology-practices" },
-      { label: "المعايير", hint: "المشهد 4: NACE وقاموس المهارات", hash: "#methodology-standards" },
-    ],
-  },
- { label: "الخدمات", title: "خدمات المركز", desc: "ثماني خدمات تغطي الإرشاد والوظائف والخبرة العملية.", cta: "كل الخدمات", icon: "grid", color: "#3f7a24", href: "#services", items: SERVICES.map((s) => ({ label: s, section: "services" })) },
  {
    label: "الطالب",
    title: "بوابة الطالب",
@@ -116,7 +98,7 @@ function Icon({ name, className = "h-[18px] w-[18px]" }: { name: string; classNa
  );
 }
 
-const PAGE_OF: Record<string, Page> = { "#methodology": "methodology", "#student": "student", "#alumni": "alumni", "#employers": "employers", "#center": "center", "#university": "university" };
+const PAGE_OF: Record<string, Page> = { "#student": "student", "#alumni": "alumni", "#employers": "employers", "#center": "center", "#university": "university" };
 
 export default function Navbar({ gateways }: { gateways: Gateway[] }) {
  void gateways;
