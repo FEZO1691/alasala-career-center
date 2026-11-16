@@ -20,7 +20,6 @@ const MENU: Entry[] = [
    items: [
      { label: "رحلة الطالب", hint: "خمس محطات من أول سنة إلى ما بعد التخرج", section: "journey" },
      { label: "التطبيق", hint: "معاينة تطبيق الطالب والخريج", section: "app" },
-     { label: "كيف يعمل", hint: "أربع خطوات من الدخول إلى النتائج", section: "how" },
      { label: "الفعاليات", hint: "ورش ولقاءات قادمة", section: "events" },
      { label: "قصص النجاح", hint: "ثلاث قصص بالفيديو", section: "stories" },
      { label: "الشركاء", hint: "الشركات التي توظف وتدرّب", section: "partners" },

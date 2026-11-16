@@ -7,7 +7,8 @@ import { EmployersSection } from "./components/EmployerPortal";
 import CenterPortal from "./components/CenterPortal";
 import UniversityPortal from "./components/UniversityPortal";
 import { Footer } from "./components/Closing";
-import { LandingHero, LandingNumbers, Audiences, ServiceCards, Events, Partners, LandingCta, HowItWorks, Faq, Stories } from "./components/Landing";
+import { LandingNumbers, Partners, Faq, Stories } from "./components/Landing";
+import { QuickBar, HeroV2, AudiencesV2, EventsV2, ValueBand } from "./components/HomeV2";
 import SessionRoom from "./components/SessionRoom";
 import StoryPage from "./components/StoryPage";
 import Chatbot from "./components/Chatbot";
@@ -25,23 +26,22 @@ export default function Home() {
 
   return (
     <>
+      <QuickBar />
       <Navbar gateways={university.gateways} />
       <main>
         <Router
           pages={{
             home: (
               <>
-                <LandingHero />
+                <HeroV2 />
                 <LandingNumbers />
+                <AudiencesV2 gateways={university.gateways} />
                 <Journey stages={university.stages} />
-                <Audiences gateways={university.gateways} />
-                <HowItWorks />
-                <ServiceCards services={university.services} />
-                <Events />
+                <EventsV2 />
                 <Stories />
                 <Partners />
                 <Faq />
-                <LandingCta />
+                <ValueBand />
               </>
             ),
             story: <StoryPage />,
